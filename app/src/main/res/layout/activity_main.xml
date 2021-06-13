@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtJnnce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JNNCE"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="80dp"/>
+
+    <ImageView
+        android:id="@+id/imgJnn"
+        android:layout_width="124dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@id/txtJnnce"
+        android:src="@drawable/college_logo"
+        android:layout_marginTop="50dp"
+        />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#E41B17"
+        android:layout_below="@id/txtJnnce"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginTop="80dp"
+        android:drawablePadding="4dp"
+        android:layout_marginStart="100dp"
+        android:padding="3dp"
+        android:text="SONU KUMAR"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_name" />
+
+    <TextView
+        android:id="@+id/txtJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="4dp"
+        android:layout_marginStart="100dp"
+        android:padding="3dp"
+        android:textSize="20sp"
+        android:text="Student"
+        app:drawableStartCompat="@drawable/ic_job" />
+
+    <TextView
+        android:id="@+id/txtPhno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtJob"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="4dp"
+        android:layout_marginStart="100dp"
+        android:padding="3dp"
+        android:text="8529735015"
+        android:textSize="20sp"
+        app:drawableStartCompat="@drawable/ic_mobile" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPhno"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="4dp"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:padding="3dp"
+        android:text="Navule, Shimoga"
+        app:drawableStartCompat="@drawable/ic_address" />
+
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAddress"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="4dp"
+        android:textSize="20sp"
+        android:layout_marginStart="100dp"
+        android:padding="3dp"
+        android:text="roysonu381@gmail.com"
+        app:drawableStartCompat="@drawable/ic_email" />
+
+    <TextView
+        android:id="@+id/txtWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtMail"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="4dp"
+        android:layout_marginStart="100dp"
+        android:textSize="20sp"
+        android:padding="3dp"
+        android:text="WWW.developer.ac.in"
+        app:drawableStartCompat="@drawable/ic_website" />
+
+    <TextView
+        android:id="@+id/txtFax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtWebsite"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="4dp"
+        android:layout_marginStart="100dp"
+        android:textSize="20sp"
+        android:padding="3dp"
+        android:text="08182-864328"
+        app:drawableStartCompat="@drawable/ic_fax" />
+
+</RelativeLayout>
